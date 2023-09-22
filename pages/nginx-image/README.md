@@ -468,26 +468,31 @@ service nginx reload # Если он был запущен ранее
 ```
 # 4. Проверка результата
 **Оригинальный размер с водным знаком**
+
 URL: http:\/\/img.site.local\/picture.jpg
 
 ![Оригинальный размер с водяным знаком](https://github.com/TimurSeyidov/articles/blob/main/pages/nginx-image/assets/example_1.jpeg?raw=true)
 
 **Оригинальная картинка**
+
 URL: http:\/\/img.site.local\/original\/picture.jpg
 
 ![Оригинальная картинка](https://github.com/TimurSeyidov/articles/blob/main/pages/nginx-image/assets/example_2.jpeg?raw=true)
 
 **Изменение размера 300x300**
+
 URL: http:\/\/img.site.local\/resize\/300x300\/picture.jpg
 
 ![Изменение размера 300x300](https://github.com/TimurSeyidov/articles/blob/main/pages/nginx-image/assets/example_3.jpeg?raw=true)
 
 **Обрезка 300x300**
+
 URL: http:\/\/img.site.local\/crop\/300x300\/picture.jpg
 
 ![Обрезка 300x300*](https://github.com/TimurSeyidov/articles/blob/main/pages/nginx-image/assets/example_4.jpeg?raw=true)
 
 **Обрезка 250x140 (без водяного знака)**
+
 URL: http:\/\/img.site.local\/crop\/250x140\/picture.jpg
 
 ![Обрезка 250x140 без водного знака](https://github.com/TimurSeyidov/articles/blob/main/pages/nginx-image/assets/example_5.jpeg?raw=true)
@@ -526,11 +531,13 @@ location ~ ^/nowater/(?!crop/|resize/).*\.(?:jpg|png)$ {
 ```
 
 **Обрезка 400x400 без водяного знака**
+
 URL: http:\/\/img.site.local\/nowater\/crop\/400x400\/picture.jpg
 
 ![Обрезка 400x400 без водяного знака](https://github.com/TimurSeyidov/articles/blob/main/pages/nginx-image/assets/example_7.jpeg?raw=true)
 
 **Изменение размера 400x400 без водяного знака**
+
 URL: http:\/\/img.site.local\/nowater\/resize\/400x400\/picture.jpg
 
 ![Изменение размера 400x400 без водяного знака](https://github.com/TimurSeyidov/articles/blob/main/pages/nginx-image/assets/example_6.jpeg?raw=true)
