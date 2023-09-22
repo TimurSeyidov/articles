@@ -422,7 +422,7 @@ server {
 Поясним:
 - Оригиналы картинок будут храниться в папке **/web/mediacontent**.
 Для теста я поместил в нее изображение **picture.jpg**.
-![Оригинальная картинка](assetspicture.jpeg)
+![Оригинальная картинка](timurseyidov.github.io/articles/pages/nginx-image/picture.jpeg)
 - Кэш будет хранится в папке **web/cache/images** сутки с максимальным размером 5Gb
 - Если Вам не нужна поддержка водяного знака, удалите строки **include /home/\<user\>/configurations/nginx/inc/watermark.conf;**, иначе:
     - замените **\<user\>** на имя пользователя
@@ -469,19 +469,19 @@ service nginx reload # Если он был запущен ранее
 # 4. Проверка результата
 http://img.site.local/picture.jpg
 **Оригинальный размер с водным знаком**
-![Оригинальный размер с водяным знаком](assets/example_1.jpeg)
+![Оригинальный размер с водяным знаком](timurseyidov.github.io/articles/pages/nginx-image/example_1.jpeg)
 **Оригинальная картинка**
 http://img.site.local/original/picture.jpg
-![Оригинальная картинка](assets/example_2.jpeg)
+![Оригинальная картинка](timurseyidov.github.io/articles/pages/nginx-image/example_2.jpeg)
 **Изменение размера 300x300**
 http://img.site.local/resize/300x300/picture.jpg
-![Изменение размера 300x300](assets/example_3.jpeg)
+![Изменение размера 300x300](timurseyidov.github.io/articles/pages/nginx-image/example_3.jpeg)
 **Обрезка 300x300**
 http://img.site.local/crop/300x300/picture.jpg
-![Обрезка 300x300*](assets/example_4.jpeg)
+![Обрезка 300x300*](timurseyidov.github.io/articles/pages/nginx-image/example_4.jpeg)
 **Обрезка 250x140 (без водяного знака)**
 http://img.site.local/crop/250x140/picture.jpg
-![Обрезка 250x140 без водного знака](assets/example_5.jpeg)
+![Обрезка 250x140 без водного знака](timurseyidov.github.io/articles/pages/nginx-image/example_5.jpeg)
 
 ## Дополнительно
 Если Вы используете водяной знак, но хотите добавить возможность убирать знак, можно добавить такую возможность.
@@ -518,7 +518,7 @@ location ~ ^/nowater/(?!crop/|resize/).*\.(?:jpg|png)$ {
 
 **Обрезка 400x400 без водяного знака**
 http://img.site.local/nowater/crop/400x400/picture.jpg
-![Обрезка 400x400 без водяного знака](assets/example_7.jpeg)
+![Обрезка 400x400 без водяного знака](timurseyidov.github.io/articles/pages/nginx-image/example_7.jpeg)
 **Изменение размера 400x400 без водяного знака**
 http://img.site.local/nowater/resize/400x400/picture.jpg
-![Изменение размера 400x400 без водяного знака](assets/example_6.jpeg)
+![Изменение размера 400x400 без водяного знака](timurseyidov.github.io/articles/pages/nginx-image/example_6.jpeg)
