@@ -422,7 +422,7 @@ server {
 Поясним:
 - Оригиналы картинок будут храниться в папке **/web/mediacontent**.
 Для теста я поместил в нее изображение **picture.jpg**.
-![Оригинальная картинка](assets/picture.jpeg)
+![Оригинальная картинка](https://timurseyidov.github.io/articles/pages/nginx-image/assetspicture.jpeg)
 - Кэш будет хранится в папке **web/cache/images** сутки с максимальным размером 5Gb
 - Если Вам не нужна поддержка водяного знака, удалите строки **include /home/\<user\>/configurations/nginx/inc/watermark.conf;**, иначе:
     - замените **\<user\>** на имя пользователя
@@ -439,7 +439,7 @@ server {
     image_filter_watermark_height_from 150;
     ```
     - **image_filter_watermark** -  путь до картинки с водным знаком
-    ![Водный знак](assets/watermark.png)
+    ![Водный знак](https://timurseyidov.github.io/articles/pages/nginx-image/assetswatermark.png)
     - **image_filter_watermark_position** - позиция
     - **image_filter_watermark_width_from** - минимальная ширина картинки, при которой накладывается знак
     - **image_filter_watermark_height_from** - минимальная высота картинки, при которой накладывается знак
