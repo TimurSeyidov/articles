@@ -16,7 +16,7 @@
 apt install mc
 ```
 
-![mc](https://github.com/TimurSeyidov/articles/blob/main/pages/cli-utils/assets/mc.png)
+![mc](https://github.com/TimurSeyidov/articles/blob/main/pages/cli-utils/assets/mc.png?raw=true)
 
 
 ## htop
@@ -29,7 +29,7 @@ apt install mc
 apt install htop
 ```
 
-![htop](https://github.com/TimurSeyidov/articles/blob/main/pages/cli-utils/assets/htop.png)
+![htop](https://github.com/TimurSeyidov/articles/blob/main/pages/cli-utils/assets/htop.png?raw=true)
 
 
 ## OhMyZsh 
@@ -50,7 +50,7 @@ apt install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-![ohmyzsh](https://github.com/TimurSeyidov/articles/blob/main/pages/cli-utils/assets/ohmyzsh.png)
+![ohmyzsh](https://github.com/TimurSeyidov/articles/blob/main/pages/cli-utils/assets/ohmyzsh.png?raw=true)
 
 ## Bat
 Репозиторий: [github.com/sharkdp/bat](https://github.com/sharkdp/bat)
@@ -66,7 +66,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 apt install bat
 ```
 
-![bat](https://github.com/TimurSeyidov/articles/blob/main/pages/cli-utils/assets/bat.png)
+![bat](https://github.com/TimurSeyidov/articles/blob/main/pages/cli-utils/assets/bat.png?raw=true)
 
 ## Exa
 Репозиторий: [github.com/ogham/exa](https://github.com/ogham/exa)
@@ -78,7 +78,7 @@ apt install bat
 apt install exa
 ```
 
-![exa](https://github.com/TimurSeyidov/articles/blob/main/pages/cli-utils/assets/exa.png)
+![exa](https://github.com/TimurSeyidov/articles/blob/main/pages/cli-utils/assets/exa.png?raw=true)
 
 ## fd
 Репозиторий: [github.com/sharkdp/fd](https://github.com/sharkdp/fd)
@@ -90,7 +90,7 @@ apt install exa
 apt install fd-find
 ```
 
-![fd](https://github.com/TimurSeyidov/articles/blob/main/pages/cli-utils/assets/fd.png)
+![fd](https://github.com/TimurSeyidov/articles/blob/main/pages/cli-utils/assets/fd.png?raw=true)
 
 ## httpie
 Сайт: [httpie.io](https://httpie.io/)
@@ -99,4 +99,4 @@ apt install fd-find
 
 [Установка](https://httpie.io/docs/cli/installation) описана тут
 
-![httpie](https://github.com/TimurSeyidov/articles/blob/main/pages/cli-utils/assets/httpie.png)
+![httpie](https://github.com/TimurSeyidov/articles/blob/main/pages/cli-utils/assets/httpie.png?raw=true)
