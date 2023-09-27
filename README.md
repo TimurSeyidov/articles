@@ -4,3 +4,5 @@
 - [Обработка изображений на лету с помощью Nginx](pages/nginx-image/README.md)
 - [Установка и настройка LetsEncrypt на вашем сервере](pages/letsencrypt/README.md)
 - [Подборка консольных утилит](pages/cli-utils/README.md)
+- [Docker](pages/docker/README.md)
+  - [RabbitMQ](pages/docker/rabbitmq/README.md)
