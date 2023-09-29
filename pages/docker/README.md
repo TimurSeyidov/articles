@@ -52,5 +52,8 @@ brew install docker/docker-toolbox-mac/docker-compose
 docker-compose up
 ```
 
+- [Makefile для быстрого управления](pages/docker/makefile/README.md)
 - [RabbitMQ](./rabbitmq/README.md)
 - [React JS](./reactjs/README.md)
+- [Prometheus](./prometheus/README.md)
+- [Grafana](./grafana/README.md)

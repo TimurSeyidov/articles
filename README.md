@@ -5,5 +5,8 @@
 - [Установка и настройка LetsEncrypt на вашем сервере](pages/letsencrypt/README.md)
 - [Подборка консольных утилит](pages/cli-utils/README.md)
 - [Docker](pages/docker/README.md)
+  - [Makefile для быстрого управления](pages/docker/makefile/README.md)
   - [RabbitMQ](pages/docker/rabbitmq/README.md)
   - [React JS](pages/docker/reactjs/README.md)
+  - [Prometheus](pages/docker/prometheus/README.md)
+  - [Grafana](pages/docker/grafana/README.md)

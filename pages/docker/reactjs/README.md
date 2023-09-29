@@ -267,9 +267,11 @@ yarn-error.log*
 make init
 ```
 Переходим в браузере по ссылке [http://localhost:9000](http://localhost:9000) и увидим страницу с проектом React
+
 ![react web page](https://github.com/TimurSeyidov/articles/blob/main/pages/docker/reactjs/assets/webpage.png?raw=true)
 
 Если мы откроем панель разработки (F12 и Ctrl+Shift+I), перейти во вкладу **Network**, отфильтровать только отображение **ws**, а потом обновить страницу, мы обнаружим, что запрос на websocket успешно выполнен. А значит горячее обновление страницы работает:
+
 ![dev tools](https://github.com/TimurSeyidov/articles/blob/main/pages/docker/reactjs/assets/devtools.png?raw=true)
 
 Остановим наши контейнеры с помощью команды
@@ -369,6 +371,7 @@ docker-compose run --rm frontend-node-cli yarn add stylelint stylelint-config-st
 ```
 
 Теперь можем запустить команду ```make frontend-lint```, чтобы посмотреть работу наших линтеров.
+
 ![Работа линтера](https://github.com/TimurSeyidov/articles/blob/main/pages/docker/reactjs/assets/lint_result.png?raw=true)
 
 ## Установка Prettier
@@ -439,4 +442,5 @@ docker-compose run --rm frontend-node-cli yarn add --dev eslint-config-prettier 
 Это всего лишь пример, подробнее [тут](https://prettier.io/docs/en/configuration)
 
 Теперь после запуска ```make frontend-prettier```, у нас исправятся ошибки
+
 ![prettier](https://github.com/TimurSeyidov/articles/blob/main/pages/docker/reactjs/assets/prettier.png?raw=true)
