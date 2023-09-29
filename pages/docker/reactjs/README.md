@@ -13,8 +13,7 @@
 Содержимое **Makefile**
 
 ```make
-init: docker-down-clear frontend-clear docker-pull
-docker-build docker-up frontend-init
+init: docker-down-clear frontend-clear docker-pull docker-build docker-up frontend-init
 down: docker-down-clear frontend-clear
 lint: frontend-lint
 
