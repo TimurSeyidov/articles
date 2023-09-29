@@ -12,32 +12,37 @@ down: docker-down-clear
 restart: down init
 
 docker-up:
-    docker-compose up -d
+  docker-compose up -d
 
 docker-down:
-    docker-compose down --remove-orphans
+  docker-compose down --remove-orphans
 
 docker-down-clear:
-    docker-compose down -v --remove-orphans
+  docker-compose down -v --remove-orphans
 
 docker-pull:
-    docker-compose pull
+  docker-compose pull
 
 docker-build:
-    docker-compose build
+  docker-compose build
 ```
 
 **docker-up**
+
 Собирает и запускат контейнеры
 
 **docker-down**
+
 Удаляет все контейнеры, образы и сети, определенные в файле docker-compose.yml. Опция **--remove-orphans** отвечает за удаление всех оставшихся ресурсов, которые не были явно удалены в файле docker-compose.yml. 
 
 **docker-down-clear**
+
 Удаляет все контейнеры, образы и сети, определенные в файле docker-compose.yml. Опция **--remove-orphans** отвечает за удаление всех оставшихся ресурсов, которые не были явно удалены в файле docker-compose.yml. Опция **-v** удаляет все контейнеры, сети и тома, определенные в вашем файле docker-compose.yml.
 
 **docker-pull**
+
 Cкачивает образы, указанные в файле docker-compose.yaml
 
 **docker-build**
+
 Создает образы на основе Dockerfile, указанного в файле docker-compose.yaml

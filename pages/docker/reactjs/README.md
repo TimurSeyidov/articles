@@ -62,45 +62,59 @@ frontend-test-watch:
 
 Подробнее о командах:
 **docker-up**
+
 Собирает и запускат контейнеры
 
 **docker-down**
+
 Удаляет все контейнеры, образы и сети, определенные в файле docker-compose.yml. Опция **--remove-orphans** отвечает за удаление всех оставшихся ресурсов, которые не были явно удалены в файле docker-compose.yml. 
 
 **docker-down-clear**
+
 Удаляет все контейнеры, образы и сети, определенные в файле docker-compose.yml. Опция **--remove-orphans** отвечает за удаление всех оставшихся ресурсов, которые не были явно удалены в файле docker-compose.yml. Опция **-v** удаляет все контейнеры, сети и тома, определенные в вашем файле docker-compose.yml.
 
 **docker-pull**
+
 Cкачивает образы, указанные в файле docker-compose.yaml
 
 **docker-build**
+
 Создает образы на основе Dockerfile, указанного в файле docker-compose.yaml
 
 **frontend-clear**
+
 Удаляет папку **build** из проекта, если она ранее была создана
 
 **frontend-init**
+
 Устанавливает пакеты, указаные в package.json
 
 **frontend-yarn-install**
+
 Устанавливает пакеты, указаные в package.json
 
 **frontend-ready**
+
 Создает файл **.ready**, который дает указание на запуск **yarn start**
 
 **frontend-lint**
+
 Запускает **eslint** и **stylelint**
 
 **frontend-prettier**
+
 Запускает **prettier**
 
 **frontend-lint-fix**
+
 Запускает **eslint-fix**
 
 **frontend-test**
+
 Запускает тесты и после завершения останавливается
 
 **frontend-test-watch**
+
 Запускает тесты в интерактивном режиме
 
 ## Подготовка конфигураций и Dockerfile
