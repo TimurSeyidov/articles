@@ -137,7 +137,7 @@ WORKDIR /app
 ```
 Собирается образ из nginx версии 1.19-alpine, копируется конфигурация и устанавливается в качестве рабочей директории папка **app**
 
-**docker/nginx/conf.d/default.conf
+**docker/nginx/conf.d/default.conf**
 
 ```nginx
 server {
@@ -317,7 +317,7 @@ docker-compose run --rm frontend-node-cli yarn add eslint-plugin-react@latest es
 Теперь добавим в файле **package.json** в секции **scripts** команды:
 ```json
 "scripts": {
-    ...
+    // ...
     "eslint": "eslint --ext .js,.jsx src",
     "eslint-fix": "eslint --fix  --ext .js,.jsx src"
 }
@@ -387,36 +387,36 @@ docker-compose run --rm frontend-node-cli yarn add --dev eslint-config-prettier 
 В файле **.eslintrc.json** добавить:
 ```json
 {
-    ...
+    // ...
     "plugins": [
-        ...,
+        // ...,
         "plugin:prettier/recommended"
     ],
     "extends": [
-        ...,
+        // ...,
         "prettier"
     ],
     "rules": {
-        ...,
+        // ...,
         "prettier/prettier": "error"
     }
-    ...
+    // ...
 }
 ```
 В файле **.stylelintrc.json** добавить:
 ```json
 {
-    ...,
+    // ...,
     "plugins": [
-        ...,
+        // ...,
         "stylelint-prettier"
     ],
     "rules": {
-        ...,
+        // ...,
         "prettier/prettier": true
     },
     "extends": [
-        ...,
+        // ...,
         "stylelint-config-prettier"
     ]
 }
