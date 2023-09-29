@@ -9,6 +9,7 @@ Makefile содержит информацию о том, из каких исх
 ```make
 init: docker-down-clear docker-pull docker-build docker-up
 down: docker-down-clear
+restart: down init
 
 docker-up:
     docker-compose up -d
